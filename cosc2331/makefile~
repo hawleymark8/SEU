@@ -1,0 +1,9 @@
+#makefile for prog5.asm
+a.out: prog5.o mysubs.o
+	ld -m elf_i386 mysubs.o prog5.o
+prog5.o: prog5.asm
+	nasm -f elf prog5.asm
+mysubs.o: mysubs.asm
+	nasm -f elf mysubs.asm
+clean:
+	rm a.out prog5.o mysubs.o

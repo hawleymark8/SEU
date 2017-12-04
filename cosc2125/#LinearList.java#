@@ -1,0 +1,16 @@
+/** LinearList.java
+ * an interface to be used in lab5 for a linear list of data.
+ * this interface will be implemented for cosc 2125 lab #5
+ * A linear list is not sorted and there is no particular
+ * ordering to the elements in the list.
+ * @author Laura Baker
+ * @version 1.1
+ */
+
+public interface LinearList {
+
+
+
+
+
+}

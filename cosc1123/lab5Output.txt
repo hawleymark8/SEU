@@ -1,0 +1,216 @@
+Script started on Thu 11 Feb 2010 03:08:48 PM CST
+mhawley@s26049:~/cosc1123$ java seu03
+******************************************
+Welcome to the 1323 Menu System
+Please choose an option
+Option
+1) Calculator Module
+2) Find the Square Root of a number
+3) Convert dollar cent amount to minimal coin amount
+4) Sentence Analysis
+5) Date and Time
+
+9) Exit
+
+Choice:
+1
+Input Number One:2
+Input Number Two:4
+Quotient is: 0.5
+Sum is: 6.0
+Product is: 8.0
+Difference is: 2.0
+******************************************
+Welcome to the 1323 Menu System
+Please choose an option
+Option
+1) Calculator Module
+2) Find the Square Root of a number
+3) Convert dollar cent amount to minimal coin amount
+4) Sentence Analysis
+5) Date and Time
+
+9) Exit
+
+Choice:
+1
+Input Number One:2
+Input Number Two:0
+Cannot Compute Quotient (Cannot Divide by 0)
+Sum is: 2.0
+Product is: 0.0
+Difference is: -2.0
+******************************************
+Welcome to the 1323 Menu System
+Please choose an option
+Option
+1) Calculator Module
+2) Find the Square Root of a number
+3) Convert dollar cent amount to minimal coin amount
+4) Sentence Analysis
+5) Date and Time
+
+9) Exit
+
+Choice:
+2
+Input Number (not negative) for Square Root Module
+4
+Square Root is 2.0
+Square Root is Exact
+******************************************
+Welcome to the 1323 Menu System
+Please choose an option
+Option
+1) Calculator Module
+2) Find the Square Root of a number
+3) Convert dollar cent amount to minimal coin amount
+4) Sentence Analysis
+5) Date and Time
+
+9) Exit
+
+Choice:
+2
+Input Number (not negative) for Square Root Module
+3
+Square Root is 1.7320508075688772
+Square Root is not exact because there is limited memory to store the irrational square root result
+******************************************
+Welcome to the 1323 Menu System
+Please choose an option
+Option
+1) Calculator Module
+2) Find the Square Root of a number
+3) Convert dollar cent amount to minimal coin amount
+4) Sentence Analysis
+5) Date and Time
+
+9) Exit
+
+Choice:
+3
+Input Dollars
+6
+Input Cents
+79  69 8
+You entered 6 dollars and 68 cents.
+The minimal number of coins is:
+26 quarter(s)
+1 dime(s)
+1 nickel(s)
+3 pennie(s)
+******************************************
+Welcome to the 1323 Menu System
+Please choose an option
+Option
+1) Calculator Module
+2) Find the Square Root of a number
+3) Convert dollar cent amount to minimal coin amount
+4) Sentence Analysis
+5) Date and Time
+
+9) Exit
+
+Choice:
+4
+Please Enter Sentence to be Analyzed
+Mark I Has this          Has t This Completed
+Sentence Length is: 23
+First Letter is: M
+Last Letter is: d
+Middle Character is: i
+******************************************
+Welcome to the 1323 Menu System
+Please choose an option
+Option
+1) Calculator Module
+2) Find the Square Root of a number
+3) Convert dollar cent amount to minimal coin amount
+4) Sentence Analysis
+5) Date and Time
+
+9) Exit
+
+Choice:
+5
+Date and Time is:
+
+2010/02/11 15:12:28
+******************************************
+Welcome to the 1323 Menu System
+Please choose an option
+Option
+1) Calculator Module
+2) Find the Square Root of a number
+3) Convert dollar cent amount to minimal coin amount
+4) Sentence Analysis
+5) Date and Time
+
+9) Exit
+
+Choice:
+Hrl  ello
+Exception in thread "main" java.util.InputMismatchException
+	at java.util.Scanner.throwFor(Scanner.java:840)
+	at java.util.Scanner.next(Scanner.java:1461)
+	at java.util.Scanner.nextInt(Scanner.java:2091)
+	at java.util.Scanner.nextInt(Scanner.java:2050)
+	at seu03Methods.seu03Menu(seu03Methods.java:46)
+	at seu03.main(seu03.java:40)
+mhawley@s26049:~/cosc1123$ seu03[K[K[K[K[Kjava seu03
+******************************************
+Welcome to the 1323 Menu System
+Please choose an option
+Option
+1) Calculator Module
+2) Find the Square Root of a number
+3) Convert dollar cent amount to minimal coin amount
+4) Sentence Analysis
+5) Date and Time
+
+9) Exit
+
+Choice:
+9
+Thanks for using the 1323 Menu Program mhawley
+mhawley@s26049:~/cosc1123$ seu0[K[K[K[Kjava seu03
+******************************************
+Welcome to the 1323 Menu System
+Please choose an option
+Option
+1) Calculator Module
+2) Find the Square Root of a number
+3) Convert dollar cent amount to minimal coin amount
+4) Sentence Analysis
+5) Date and Time
+
+9) Exit
+
+Choice:
+4 4
+Please Enter Sentence to be Analyzed
+mark ka
+Sentence Length is: 5
+First Letter is: m
+Last Letter is: a
+Middle Character is: r
+******************************************
+Welcome to the 1323 Menu System
+Please choose an option
+Option
+1) Calculator Module
+2) Find the Square Root of a number
+3) Convert dollar cent amount to minimal coin amount
+4) Sentence Analysis
+5) Date and Time
+
+9) Exit
+
+Choice:
+9
+Thanks for using the 1323 Menu Program mhawley
+mhawley@s26049:~/cosc1123$ exit
+exit
+
+Script done on Thu 11 Feb 2010 03:16:56 PM CST

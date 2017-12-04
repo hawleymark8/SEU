@@ -1,0 +1,136 @@
+Script started on Thu 09 Sep 2010 04:23:35 PM CDT
+mhawley@s26048:~/cosc2125$ emacs AirLineFlight.javals[K[K[Kcd cosc2125ls[K[K[Kjava AirLineFlightListText[K[Kst.java[K[K[K[K[K
+Enter file to read flight data from: 
+flight.txt
+Current List:
+Flight Number: CT833 Origin Airport: BOS Destination Airport: ELP Cost: $581 
+ Flight Number: UA1667 Origin Airport: LGA Destination Airport: SJC Cost: $353 
+ Flight Number: UA1582 Origin Airport: BWI Destination Airport: BNA Cost: $307 
+ Flight Number: HA27 Origin Airport: RDU Destination Airport: PHX Cost: $247 
+ Flight Number: NW2485 Origin Airport: MSY Destination Airport: MSY Cost: $251 
+ Flight Number: QT2685 Origin Airport: SFO Destination Airport: RDU Cost: $602 
+ Flight Number: NW1217 Origin Airport: PHX Destination Airport: MKE Cost: $394 
+ Flight Number: SW481 Origin Airport: DAL Destination Airport: PIT Cost: $415 
+ Flight Number: HA1060 Origin Airport: LAX Destination Airport: DEN Cost: $499 
+ Flight Number: UA2870 Origin Airport: MSY Destination Airport: BNA Cost: $696 
+ Flight Number: DT1452 Origin Airport: MKE Destination Airport: MCI Cost: $257 
+ Flight Number: NW2202 Origin Airport: DAL Destination Airport: MCI Cost: $627 
+ Flight Number: AA2508 Origin Airport: MSY Destination Airport: BNA Cost: $492 
+ Flight Number: NW1406 Origin Airport: BNA Destination Airport: BOS Cost: $492 
+ Flight Number: HA24 Origin Airport: SFO Destination Airport: MSY Cost: $492 
+ Flight Number: UA2465 Origin Airport: MCI Destination Airport: MCI Cost: $283 
+ Flight Number: HA1772 Origin Airport: BNA Destination Airport: LAS Cost: $754 
+ Flight Number: UA688 Origin Airport: DAL Destination Airport: LGA Cost: $669 
+ Flight Number: DT106 Origin Airport: BOS Destination Airport: SEA Cost: $931 
+ Flight Number: UA2932 Origin Airport: PHX Destination Airport: SFO Cost: $235 
+ Flight Number: JB391 Origin Airport: SJC Destination Airport: MCI Cost: $614 
+ Flight Number: HA1609 Origin Airport: DEN Destination Airport: BOS Cost: $823 
+ Flight Number: QT2307 Origin Airport: STL Destination Airport: MSY Cost: $333 
+ Flight Number: QT1468 Origin Airport: DEN Destination Airport: LGA Cost: $930 
+ Flight Number: DT2946 Origin Airport: DTW Destination Airport: ELP Cost: $817 
+ Flight Number: NW527 Origin Airport: MSY Destination Airport: LAS Cost: $359 
+ Flight Number: SW190 Origin Airport: SEA Destination Airport: AUS Cost: $757 
+ Flight Number: AA2809 Origin Airport: SFO Destination Airport: DEN Cost: $668 
+ Flight Number: UA1787 Origin Airport: BWI Destination Airport: MKE Cost: $175 
+ Flight Number: QT2827 Origin Airport: LAX Destination Airport: DTW Cost: $756 
+ 
+Sorted by flight number
+Flight Number: AA2508 Origin Airport: MSY Destination Airport: BNA Cost: $492 
+ Flight Number: AA2809 Origin Airport: SFO Destination Airport: DEN Cost: $668 
+ Flight Number: CT833 Origin Airport: BOS Destination Airport: ELP Cost: $581 
+ Flight Number: DT106 Origin Airport: BOS Destination Airport: SEA Cost: $931 
+ Flight Number: DT1452 Origin Airport: MKE Destination Airport: MCI Cost: $257 
+ Flight Number: DT2946 Origin Airport: DTW Destination Airport: ELP Cost: $817 
+ Flight Number: HA1060 Origin Airport: LAX Destination Airport: DEN Cost: $499 
+ Flight Number: HA1609 Origin Airport: DEN Destination Airport: BOS Cost: $823 
+ Flight Number: HA1772 Origin Airport: BNA Destination Airport: LAS Cost: $754 
+ Flight Number: HA24 Origin Airport: SFO Destination Airport: MSY Cost: $492 
+ Flight Number: HA27 Origin Airport: RDU Destination Airport: PHX Cost: $247 
+ Flight Number: JB391 Origin Airport: SJC Destination Airport: MCI Cost: $614 
+ Flight Number: NW1217 Origin Airport: PHX Destination Airport: MKE Cost: $394 
+ Flight Number: NW1406 Origin Airport: BNA Destination Airport: BOS Cost: $492 
+ Flight Number: NW2202 Origin Airport: DAL Destination Airport: MCI Cost: $627 
+ Flight Number: NW2485 Origin Airport: MSY Destination Airport: MSY Cost: $251 
+ Flight Number: NW527 Origin Airport: MSY Destination Airport: LAS Cost: $359 
+ Flight Number: QT1468 Origin Airport: DEN Destination Airport: LGA Cost: $930 
+ Flight Number: QT2307 Origin Airport: STL Destination Airport: MSY Cost: $333 
+ Flight Number: QT2685 Origin Airport: SFO Destination Airport: RDU Cost: $602 
+ Flight Number: QT2827 Origin Airport: LAX Destination Airport: DTW Cost: $756 
+ Flight Number: SW190 Origin Airport: SEA Destination Airport: AUS Cost: $757 
+ Flight Number: SW481 Origin Airport: DAL Destination Airport: PIT Cost: $415 
+ Flight Number: UA1582 Origin Airport: BWI Destination Airport: BNA Cost: $307 
+ Flight Number: UA1667 Origin Airport: LGA Destination Airport: SJC Cost: $353 
+ Flight Number: UA1787 Origin Airport: BWI Destination Airport: MKE Cost: $175 
+ Flight Number: UA2465 Origin Airport: MCI Destination Airport: MCI Cost: $283 
+ Flight Number: UA2870 Origin Airport: MSY Destination Airport: BNA Cost: $696 
+ Flight Number: UA2932 Origin Airport: PHX Destination Airport: SFO Cost: $235 
+ Flight Number: UA688 Origin Airport: DAL Destination Airport: LGA Cost: $669 
+ 
+Sorted by origin 
+Flight Number: HA1772 Origin Airport: BNA Destination Airport: LAS Cost: $754 
+ Flight Number: NW1406 Origin Airport: BNA Destination Airport: BOS Cost: $492 
+ Flight Number: CT833 Origin Airport: BOS Destination Airport: ELP Cost: $581 
+ Flight Number: DT106 Origin Airport: BOS Destination Airport: SEA Cost: $931 
+ Flight Number: UA1582 Origin Airport: BWI Destination Airport: BNA Cost: $307 
+ Flight Number: UA1787 Origin Airport: BWI Destination Airport: MKE Cost: $175 
+ Flight Number: NW2202 Origin Airport: DAL Destination Airport: MCI Cost: $627 
+ Flight Number: SW481 Origin Airport: DAL Destination Airport: PIT Cost: $415 
+ Flight Number: UA688 Origin Airport: DAL Destination Airport: LGA Cost: $669 
+ Flight Number: HA1609 Origin Airport: DEN Destination Airport: BOS Cost: $823 
+ Flight Number: QT1468 Origin Airport: DEN Destination Airport: LGA Cost: $930 
+ Flight Number: DT2946 Origin Airport: DTW Destination Airport: ELP Cost: $817 
+ Flight Number: HA1060 Origin Airport: LAX Destination Airport: DEN Cost: $499 
+ Flight Number: QT2827 Origin Airport: LAX Destination Airport: DTW Cost: $756 
+ Flight Number: UA1667 Origin Airport: LGA Destination Airport: SJC Cost: $353 
+ Flight Number: UA2465 Origin Airport: MCI Destination Airport: MCI Cost: $283 
+ Flight Number: DT1452 Origin Airport: MKE Destination Airport: MCI Cost: $257 
+ Flight Number: AA2508 Origin Airport: MSY Destination Airport: BNA Cost: $492 
+ Flight Number: NW2485 Origin Airport: MSY Destination Airport: MSY Cost: $251 
+ Flight Number: NW527 Origin Airport: MSY Destination Airport: LAS Cost: $359 
+ Flight Number: UA2870 Origin Airport: MSY Destination Airport: BNA Cost: $696 
+ Flight Number: NW1217 Origin Airport: PHX Destination Airport: MKE Cost: $394 
+ Flight Number: UA2932 Origin Airport: PHX Destination Airport: SFO Cost: $235 
+ Flight Number: HA27 Origin Airport: RDU Destination Airport: PHX Cost: $247 
+ Flight Number: SW190 Origin Airport: SEA Destination Airport: AUS Cost: $757 
+ Flight Number: AA2809 Origin Airport: SFO Destination Airport: DEN Cost: $668 
+ Flight Number: HA24 Origin Airport: SFO Destination Airport: MSY Cost: $492 
+ Flight Number: QT2685 Origin Airport: SFO Destination Airport: RDU Cost: $602 
+ Flight Number: JB391 Origin Airport: SJC Destination Airport: MCI Cost: $614 
+ Flight Number: QT2307 Origin Airport: STL Destination Airport: MSY Cost: $333 
+ 
+Sorted by cost 
+Flight Number: UA1787 Origin Airport: BWI Destination Airport: MKE Cost: $175 
+ Flight Number: UA2932 Origin Airport: PHX Destination Airport: SFO Cost: $235 
+ Flight Number: HA27 Origin Airport: RDU Destination Airport: PHX Cost: $247 
+ Flight Number: NW2485 Origin Airport: MSY Destination Airport: MSY Cost: $251 
+ Flight Number: DT1452 Origin Airport: MKE Destination Airport: MCI Cost: $257 
+ Flight Number: UA2465 Origin Airport: MCI Destination Airport: MCI Cost: $283 
+ Flight Number: UA1582 Origin Airport: BWI Destination Airport: BNA Cost: $307 
+ Flight Number: QT2307 Origin Airport: STL Destination Airport: MSY Cost: $333 
+ Flight Number: UA1667 Origin Airport: LGA Destination Airport: SJC Cost: $353 
+ Flight Number: NW527 Origin Airport: MSY Destination Airport: LAS Cost: $359 
+ Flight Number: NW1217 Origin Airport: PHX Destination Airport: MKE Cost: $394 
+ Flight Number: SW481 Origin Airport: DAL Destination Airport: PIT Cost: $415 
+ Flight Number: NW1406 Origin Airport: BNA Destination Airport: BOS Cost: $492 
+ Flight Number: AA2508 Origin Airport: MSY Destination Airport: BNA Cost: $492 
+ Flight Number: HA24 Origin Airport: SFO Destination Airport: MSY Cost: $492 
+ Flight Number: HA1060 Origin Airport: LAX Destination Airport: DEN Cost: $499 
+ Flight Number: CT833 Origin Airport: BOS Destination Airport: ELP Cost: $581 
+ Flight Number: QT2685 Origin Airport: SFO Destination Airport: RDU Cost: $602 
+ Flight Number: JB391 Origin Airport: SJC Destination Airport: MCI Cost: $614 
+ Flight Number: NW2202 Origin Airport: DAL Destination Airport: MCI Cost: $627 
+ Flight Number: AA2809 Origin Airport: SFO Destination Airport: DEN Cost: $668 
+ Flight Number: UA688 Origin Airport: DAL Destination Airport: LGA Cost: $669 
+ Flight Number: UA2870 Origin Airport: MSY Destination Airport: BNA Cost: $696 
+ Flight Number: HA1772 Origin Airport: BNA Destination Airport: LAS Cost: $754 
+ Flight Number: QT2827 Origin Airport: LAX Destination Airport: DTW Cost: $756 
+ Flight Number: SW190 Origin Airport: SEA Destination Airport: AUS Cost: $757 
+ Flight Number: DT2946 Origin Airport: DTW Destination Airport: ELP Cost: $817 
+ Flight Number: HA1609 Origin Airport: DEN Destination Airport: BOS Cost: $823 
+ Flight Number: QT1468 Origin Airport: DEN Destination Airport: LGA Cost: $930 
+ Flight Number: DT106 Origin Airport: BOS Destination Airport: SEA Cost: $931 
+ 
+mhawley@s26048:~/cosc2125$ exit
+exit
+
+Script done on Thu 09 Sep 2010 04:24:02 PM CDT

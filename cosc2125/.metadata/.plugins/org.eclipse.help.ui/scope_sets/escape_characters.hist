@@ -1,0 +1,6 @@
+#Tue Nov 02 15:37:17 CDT 2010
+__DEFAULT__=false
+org.eclipse.sdk.Eclipse.master=true
+org.eclipse.sdk.Google.master=true
+org.eclipse.help.ui.localSearch.master=true
+expression=escape characters

@@ -1,0 +1,19 @@
+//*******************************************************
+//seu01.java Author: Mark Hawley
+//
+//Demonstrates the basic structure of a Java application.
+//It prints 5 lines on the screen.
+//*******************************************************
+
+public class seu01
+{
+    public static void main (String[] args)
+    {
+	System.out.println ("A quote by Mark Hawley");
+	System.out.println ("Whatever you are, be a good one.");
+	System.out.println (" ");
+	System.out.println ("My major is Accounting and IT.");
+	System.out.println ("**End of program seu01.java ");
+	return;
+    } //end of main
+} //end of class

@@ -1,0 +1,184 @@
+//farm.java, Mark Hawley, 11 March 2010
+//
+//
+//Revision History: 3/11/10:-Creation
+//
+//
+//
+//
+//
+//****************************************************
+
+import java.util.*;
+public class farm
+{
+    //attributes
+    private String farmName;
+    private int acres;
+    private int numHorses;
+
+    //methods------------Constructors---------------------
+    //
+    //
+    //
+    //
+    
+    //---------------Accessors/Getters------------------------
+    
+    //Pre:object
+    //Post:return name (String)
+    public String getFarmName()
+    {
+	return farmName;
+    }
+
+    //Pre:object
+    //Post:return acres (int)
+    public int getAcres()
+    {
+	return acres;
+    }
+
+    //Pre:object
+    //Post:return numHorses (int)
+    public int getNumHorses()
+    {
+	return numHorses;
+    }
+
+    //--------------Mutators/Setters---------------------------
+    
+    //Pre:object, String name
+    //Post:nothing (sets name)
+    public void setName(String newName)
+    {
+	farmName = newName;
+	return;
+    }
+
+    //Pre:object, int acres
+    //Post:nothing (sets acres)
+    public void setAcres(int newAcres)
+    {
+	acres = newAcres;
+	return;
+    }
+
+    //Pre:object, int numHorses
+    //Post:nothing (sets numHorses)
+    public void setNumHorses(int newNHorse)
+    {
+	numHorses = newNHorse;
+	return;
+    }
+
+    //-------------To String---------------------------------
+
+    //Pre:object farm
+    //Post:String - a String report of object attributes to be printed
+    public String toString()
+    {
+	String line=" ";
+	line = " Name: " + farmName + " Acres: " + acres + " Horses: " + numHorses;
+
+	return line;
+    }
+
+
+    //-------------Utilities----------------------------------
+    
+
+
+    //Pre: object farm
+    //Post: nothing
+    public static void showHorses(farm f1, horse [] h1)
+    {
+	
+	
+	//System.out.println("Insert logic for Show Horses");
+	System.out.println("************************************");
+	System.out.println(f1);
+	System.out.println("Name\tBreed\tWeight\tGender");
+        
+	for(int index=0;index < f1.getNumHorses();index++)
+	    {
+		System.out.printf("%-14s %-14s %-14s %-14s\n", h1[index].getName(), h1[index].getBreed(), h1[index].getWeight(), h1[index].getGender());
+	    }
+	System.out.println("************************************");
+    }
+
+    //Pre: farm, herd
+    //Post:
+    public static void addHorse(horse[]H1, farm f1123)
+    {
+	//System.out.println("Insert logic for addHorse");
+	if (f1123.getNumHorses() < H1.length)
+	    {
+		String name3=" ";
+		horse h5=horse.buildHorse();
+		name3 = h5.getName();
+		int pos=checkHerd(H1, name3);
+		if (pos == -1)
+		    {
+			H1[f1123.getNumHorses()] = h5;
+			f1123.setNumHorses(f1123.getNumHorses()+1);
+		    }
+		else
+		    {
+			System.out.println("Already a horse in there named " + h5.getName());
+		    }
+	    }
+	return;
+		
+    }
+
+    //Pre: object farm
+    //Post: nothing
+    public static void deleteHorse()
+    {
+	System.out.println("Insert logic for deleteHorse");
+    }
+
+    //Pre: object farm
+    //Post: nothing
+    public static void bedHorses()
+    {
+	System.out.println("Insert logic for bedHorses");
+    }
+
+    //Pre: object farm
+    //Post: nothing
+    public static void getHorses()
+    {
+	System.out.println("Insert logic for getHorses");
+    }
+
+    //Pre: object farm
+    //Post: nothing
+    public static void addFarm()
+    {
+	System.out.println("Insert logic for addFarm");
+    }
+
+    //Pre: horse[], String (index of horse)
+    //Post: int- the index of the horse if found, -1 if not found
+    public static int checkHerd(horse[]H1, String hname)
+    {
+	int position=-1;
+	int index=0;
+	while(index<H1.length && position == -1)
+	    {
+		
+		if(H1[index].getName().equals(hname))
+		    {
+			position=index;
+		    }
+		else
+		    {
+			index++;
+		    }
+	    }
+	return position;
+    }
+
+}//end of class

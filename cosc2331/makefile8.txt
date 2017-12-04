@@ -1,0 +1,9 @@
+#makefile8
+a.out: main8.o floatSort.o
+	gcc -m32 main8.o floatsort.o
+main8.o: main8.c
+	gcc -c -m32 main8.c
+floatsort.o: floatsort.asm
+	nasm -f elf floatSort.asm
+clean:
+	rm *.o a.out

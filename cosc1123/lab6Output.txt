@@ -1,0 +1,162 @@
+Script started on Thu 18 Feb 2010 02:02:11 PM CST
+mhawley@s26049:~/cosc1123$ java seu03
+******************************************
+Welcome to the 1323 Menu System
+Please choose an option
+Option
+1) Calculator Module
+2) Find the Square Root of a number
+3) Convert dollar cent amount to minimal coin amount
+4) Sentence Analysis
+5) Date and Time
+
+9) Exit
+
+Choice:
+1
+Input Number One:
+2
+Input Number Two:
+4
+Quotient is: 0.5
+Sum is: 6.0
+Product is: 8.0
+Difference is: 2.0
+******************************************
+Welcome to the 1323 Menu System
+Please choose an option
+Option
+1) Calculator Module
+2) Find the Square Root of a number
+3) Convert dollar cent amount to minimal coin amount
+4) Sentence Analysis
+5) Date and Time
+
+9) Exit
+
+Choice:
+1
+Input Number One:
+2
+Input Number Two:
+0
+Cannot Compute Quotient (Cannot Divide by 0)
+Sum is: 2.0
+Product is: 0.0
+Difference is: -2.0
+******************************************
+Welcome to the 1323 Menu System
+Please choose an option
+Option
+1) Calculator Module
+2) Find the Square Root of a number
+3) Convert dollar cent amount to minimal coin amount
+4) Sentence Analysis
+5) Date and Time
+
+9) Exit
+
+Choice:
+2
+Input Number for Square Root Module
+4 2
+Square Root is 1.4142135623730951
+Square Root is not exact because there is limited memory to store the irrational square root result
+******************************************
+Welcome to the 1323 Menu System
+Please choose an option
+Option
+1) Calculator Module
+2) Find the Square Root of a number
+3) Convert dollar cent amount to minimal coin amount
+4) Sentence Analysis
+5) Date and Time
+
+9) Exit
+
+Choice:
+2
+Input Number for Square Root Module
+-6
+Cannot Compute Square Root of Negative Number
+******************************************
+Welcome to the 1323 Menu System
+Please choose an option
+Option
+1) Calculator Module
+2) Find the Square Root of a number
+3) Convert dollar cent amount to minimal coin amount
+4) Sentence Analysis
+5) Date and Time
+
+9) Exit
+
+Choice:
+3
+Input Dollars
+3
+Input Cents
+68
+You entered 3 dollars and 68 cents.
+The minimal number of coins is:
+14 quarter(s)
+1 dime(s)
+1 nickel(s)
+3 pennie(s)
+******************************************
+Welcome to the 1323 Menu System
+Please choose an option
+Option
+1) Calculator Module
+2) Find the Square Root of a number
+3) Convert dollar cent amount to minimal coin amount
+4) Sentence Analysis
+5) Date and Time
+
+9) Exit
+
+Choice:
+4
+Please Enter Sentence to be Analyzed
+hi there
+Sentence Length is: 8
+First Letter is: h
+Last Letter is: e
+Middle Character is: t
+******************************************
+Welcome to the 1323 Menu System
+Please choose an option
+Option
+1) Calculator Module
+2) Find the Square Root of a number
+3) Convert dollar cent amount to minimal coin amount
+4) Sentence Analysis
+5) Date and Time
+
+9) Exit
+
+Choice:
+5
+Date and Time is:
+
+2010/02/18 14:03:47
+******************************************
+Welcome to the 1323 Menu System
+Please choose an option
+Option
+1) Calculator Module
+2) Find the Square Root of a number
+3) Convert dollar cent amount to minimal coin amount
+4) Sentence Analysis
+5) Date and Time
+
+9) Exit
+
+Choice:
+
+9
+Thanks for using the 1323 Menu Program mhawley
+mhawley@s26049:~/cosc1123$ exit
+exit
+
+Script done on Thu 18 Feb 2010 02:04:11 PM CST

@@ -1,0 +1,107 @@
+;; prog5.asm
+;; Mark Hawley
+
+;; list those routines that should be found outside of this file
+;; (usually all of the subroutines called)
+extern readString, writeString, upperCaseString, newLine, isNumeric, lowerCaseString, getData, findMax, intToString, stringToInt
+
+;; list those routines 
+global _start    ;  flag those routines in this file that are 
+                 ;  to be known outside of the file
+
+;; main method's data
+section .data
+   message db 'Maximum: ';
+   messageLen equ $-message
+   message2 db 'Minimum: ';
+   messageLen2 equ $-message2
+   message3 db 'Rounded Average: ';
+   messageLen3 equ $-message3
+   MAX equ 11
+   prompt1 db 'Enter an int. X to Stop: '
+   prompt1Len equ $-prompt1
+
+;; uninitialized data 
+section .bss
+   list resd MAX
+   count resb 1
+   answer resb 1000
+   answerLen resb 1
+   answer2 resb 1000
+   answerLen2 resb 1
+   string resb 20
+
+;; code section
+section .text
+ _start:
+;	push dword 10	; arg2 - length of string
+;	push dword list		; arg1 - address of string
+;	call getData
+
+	;; -----------------------
+
+    mov edi, list
+    mov dl, 'X'
+    mov ebx, 2
+    mov esi, 12
+
+getData_loop:
+    cmp ecx, ebx
+    jge done_reading
+    push dword prompt1Len  ;;prompts for numbers
+    push dword prompt1
+    call writeString
+    call newLine  
+    push esi		   ;;reads numbers in as strings
+    push dword string
+    call readString
+;length read into eax
+;check for 'x' received
+    cmp [string], dl
+    je done_reading
+    push eax
+    push dword string
+    call stringToInt	   ;;
+    mov [edi], eax 	   ;store value at array
+    add edi, 4		   ;add edi 4 bytes
+    inc ecx
+    jmp getData_loop
+done_reading:
+    mov eax, ecx
+	;; -------------------------
+	
+b1:
+	mov edi, MAX
+	
+       mov [count], eax 	   ; # of values input into array stored
+b2:  
+       push dword [count]	   ; arg2 - max chars to read
+       push dword list	           ; arg1 - address of string to store
+       call findMax
+b3:
+       mov [answer2], eax
+b4:       
+       push dword messageLen
+       push dword message
+       call writeString		   ;output "Maximum"
+
+       
+
+b5:
+       push dword eax
+       push dword answer
+       call intToString
+b6:
+       mov [answerLen2], eax 
+b7:
+       push dword answerLen2
+       push dword answer
+       call writeString
+
+	call newLine
+
+      
+;;;; Exit Program
+       mov ebx,0
+       mov eax, 1
+       int 80h

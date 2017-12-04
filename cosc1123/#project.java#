@@ -1,0 +1,15 @@
+public static void deleteCompany(project[] businesses)
+{
+    String msg;
+    int businessCode;
+    msg = "What is the code of the company you would like to delete?";
+    businessCod = myMethods.getInt(msg);
+    //int there = (Insert call to method that checks the list)
+    if (there != -1)
+	{
+	    businesses[there]=null;
+	    // for(int index=there; ***index<businesses.getNumBusinesses()***; index++)
+	    //{
+	    //businesses[index]=businesses[index+1];
+	    //}
+	    Sy

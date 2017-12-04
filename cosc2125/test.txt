@@ -1,0 +1,2 @@
+aa100 sat org 200
+aa200 sat aus 100

@@ -1,0 +1,36 @@
+//***********************************
+//seu02.java Author: Mark Hawley
+//
+//***********************************
+import java.util.Scanner;
+public class seu02
+{
+    public static void main(String[]args)
+    {
+	double num1=0;
+	double num2=0;
+	double sum=0;
+	double prod=0;
+	double diff=0;
+	double quot=0;
+	double sqrt=0;
+	Scanner cscan=new Scanner(System.in);
+	System.out.println("***********************************************");
+	System.out.println("Welcome to seu02.java, the calculator program");
+	System.out.println("This program will prompt for and accept two numbers ");
+	System.out.println("from a user, print appropriate messages, compute the sum, ");
+	System.out.println("difference (second minus first), product and quotient ");
+	System.out.println("(first divided by second), the square root of the second ");
+	System.out.println("and display the results in a nice format.");
+	
+	System.out.println("Please enter the first number:");
+	
+	num1=cscan.nextDouble();
+	
+	System.out.println("Please enter the second number (not zero):");
+
+	num2=cscan.nextDouble();
+
+	System.out.println("You entered "+num1+"and "+num2);
+    }
+}

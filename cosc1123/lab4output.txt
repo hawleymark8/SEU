@@ -1,0 +1,125 @@
+Script started on Thu 04 Feb 2010 02:42:44 PM CST
+mhawley@s26049:~/cosc1123$ seu03[K[K[K[K[Kjava seu03
+******************************************
+Welcome to the 1323 Menu System
+Please choose an option
+Option
+1) Calculator Module
+2) Find the Square Root of a number
+3) Convert dollar cent amount to minimal coin amount
+4) Sentence Analysis
+
+9) Exit
+
+Choice:
+$
+Exception in thread "main" java.util.InputMismatchException
+	at java.util.Scanner.throwFor(Scanner.java:840)
+	at java.util.Scanner.next(Scanner.java:1461)
+	at java.util.Scanner.nextInt(Scanner.java:2091)
+	at java.util.Scanner.nextInt(Scanner.java:2050)
+	at seu03.main(seu03.java:47)
+mhawley@s26049:~/cosc1123$ java seu03
+******************************************
+Welcome to the 1323 Menu System
+Please choose an option
+Option
+1) Calculator Module
+2) Find the Square Root of a number
+3) Convert dollar cent amount to minimal coin amount
+4) Sentence Analysis
+
+9) Exit
+
+Choice:
+4
+Please Enter Sentence to be Analyzed
+A
+Sentence Length is: 1
+First Letter is: A
+Last Letter is: A
+Middle Character is: A
+Thanks for using the 1323 Menu Program mhawley
+mhawley@s26049:~/cosc1123$ java seu03
+******************************************
+Welcome to the 1323 Menu System
+Please choose an option
+Option
+1) Calculator Module
+2) Find the Square Root of a number
+3) Convert dollar cent amount to minimal coin amount
+4) Sentence Analysis
+
+9) Exit
+
+Choice:
+3
+Input Dollars
+7
+Input Cents
+76
+You entered 7 dollars and 76 cents.
+The minimal number of coins is:
+31 quarter(s)
+0 dime(s)
+0 nickel(s)
+1 pennie(s)
+Thanks for using the 1323 Menu Program mhawley
+mhawley@s26049:~/cosc1123$ java seu03
+******************************************
+Welcome to the 1323 Menu System
+Please choose an option
+Option
+1) Calculator Module
+2) Find the Square Root of a number
+3) Convert dollar cent amount to minimal coin amount
+4) Sentence Analysis
+
+9) Exit
+
+Choice:
+2
+Input Number (not negative) for Square Root Module
+-31
+Cannot Compute Square Root of Negative Number
+Thanks for using the 1323 Menu Program mhawley
+mhawley@s26049:~/cosc1123$ java seu03
+******************************************
+Welcome to the 1323 Menu System
+Please choose an option
+Option
+1) Calculator Module
+2) Find the Square Root of a number
+3) Convert dollar cent amount to minimal coin amount
+4) Sentence Analysis
+
+9) Exit
+
+Choice:
+1
+Input Number One:2
+Input Number Two:0
+Cannot Compute Quotient (Cannot Divide by 0
+Sum is: 2.0
+Product is: 0.0
+Difference is: -2.0
+Thanks for using the 1323 Menu Program mhawley
+mhawley@s26049:~/cosc1123$ java seu03[K[K[K[K[Kseu03
+******************************************
+Welcome to the 1323 Menu System
+Please choose an option
+Option
+1) Calculator Module
+2) Find the Square Root of a number
+3) Convert dollar cent amount to minimal coin amount
+4) Sentence Analysis
+
+9) Exit
+
+Choice:
+9
+Thanks for using the 1323 Menu Program mhawley
+mhawley@s26049:~/cosc1123$ exit
+exit
+
+Script done on Thu 04 Feb 2010 02:44:40 PM CST

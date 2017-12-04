@@ -1,0 +1,25 @@
+// testDate.java   1123 class
+// demonstrate getting current date and time 
+// Revision history:  created 2/2/2010
+import java.util.Date;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+public class testDate 
+{
+   public static void main( String args[] )
+    {
+       String dt = getDateTime();
+       System.out.println("Date and time is " + dt);     
+       return;
+    }  // end of main 
+    // Pre: Nothing
+    // Post: String containing current date and time 
+    public static String getDateTime() 
+    {
+	DateFormat dateFormat = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss");
+        Date date = new Date();
+	String dateTime = " ";
+	dateTime = dateFormat.format(date);
+	return dateTime;
+    } // end of getDateTime
+}

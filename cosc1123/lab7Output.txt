@@ -1,0 +1,219 @@
+Script started on Thu 25 Feb 2010 04:21:36 PM CST
+mhawley@s26049:~/cosc1123$ a2ps myMethods.java[8Pcd cosc1123java easyMoney[K[K[K[K[K[K[K[K[K[K[K[K[Kava seu03
+******************************************
+Welcome to the 1323 Menu System
+Please choose an option
+Option
+1) Calculator Module
+2) Find the Square Root of a number
+3) Convert dollar cent amount to minimal coin amount
+4) Sentence Analysis
+5) Date and Time
+6) Big Money
+
+9) Exit
+
+Choice:
+1
+Input Number One:
+z
+A non double was entered: java.util.InputMismatchException
+Input Number One:
+z 2
+Input Number Two:
+z
+A non double was entered: java.util.InputMismatchException
+Input Number Two:
+2
+Quotient is: 1.0
+Sum is: 4.0
+Product is: 4.0
+Difference is: 0.0
+******************************************
+Welcome to the 1323 Menu System
+Please choose an option
+Option
+1) Calculator Module
+2) Find the Square Root of a number
+3) Convert dollar cent amount to minimal coin amount
+4) Sentence Analysis
+5) Date and Time
+6) Big Money
+
+9) Exit
+
+Choice:
+2
+Input Number for Square Root Module
+z
+A non double was entered: java.util.InputMismatchException
+Input Number for Square Root Module
+4
+Square Root is 2.0
+Square Root is Exact
+******************************************
+Welcome to the 1323 Menu System
+Please choose an option
+Option
+1) Calculator Module
+2) Find the Square Root of a number
+3) Convert dollar cent amount to minimal coin amount
+4) Sentence Analysis
+5) Date and Time
+6) Big Money
+
+9) Exit
+
+Choice:
+2
+Input Number for Square Root Module
+3
+Square Root is 1.7320508075688772
+Square Root is not exact because there is limited memory to store the irrational square root result
+******************************************
+Welcome to the 1323 Menu System
+Please choose an option
+Option
+1) Calculator Module
+2) Find the Square Root of a number
+3) Convert dollar cent amount to minimal coin amount
+4) Sentence Analysis
+5) Date and Time
+6) Big Money
+
+9) Exit
+
+Choice:
+3
+Input Dollars
+z
+A non int was entered: java.util.InputMismatchException
+Input Dollars
+1 z 1
+Input Cents
+68  z
+A non int was entered: java.util.InputMismatchException
+Input Cents
+68
+You entered 1 dollars and 68 cents.
+The minimal number of coins is:
+6 quarter(s)
+1 dime(s)
+1 nickel(s)
+3 pennie(s)
+******************************************
+Welcome to the 1323 Menu System
+Please choose an option
+Option
+1) Calculator Module
+2) Find the Square Root of a number
+3) Convert dollar cent amount to minimal coin amount
+4) Sentence Analysis
+5) Date and Time
+6) Big Money
+
+9) Exit
+
+Choice:
+5 4
+Please Enter Sentence to be Analyzed
+
+Sentence Length is: 0
+Error: java.lang.StringIndexOutOfBoundsException: String index out of range: 0
+******************************************
+Welcome to the 1323 Menu System
+Please choose an option
+Option
+1) Calculator Module
+2) Find the Square Root of a number
+3) Convert dollar cent amount to minimal coin amount
+4) Sentence Analysis
+5) Date and Time
+6) Big Money
+
+9) Exit
+
+Choice:
+4
+Please Enter Sentence to be Analyzed
+asdf
+Sentence Length is: 4
+First Letter is: a
+Last Letter is: f
+Middle Character is: s
+******************************************
+Welcome to the 1323 Menu System
+Please choose an option
+Option
+1) Calculator Module
+2) Find the Square Root of a number
+3) Convert dollar cent amount to minimal coin amount
+4) Sentence Analysis
+5) Date and Time
+6) Big Money
+
+9) Exit
+
+Choice:
+5
+Date and Time is:
+
+2010/02/25 16:24:10
+******************************************
+Welcome to the 1323 Menu System
+Please choose an option
+Option
+1) Calculator Module
+2) Find the Square Root of a number
+3) Convert dollar cent amount to minimal coin amount
+4) Sentence Analysis
+5) Date and Time
+6) Big Money
+
+9) Exit
+
+Choice:
+6
+Welcome to Big Money!
+You get 5 tries to guess a random number between 0 and 100 exclusive. (i.e. 1-99)
+If you guess in 1 try, $100, 2 tries, $50, 3 tries, $20, 4 tries, $10, and 5 tries $1.
+Otherwise, no money.
+Make a guess: 
+z
+A non int was entered: java.util.InputMismatchException
+Make a guess: 
+1
+Too Low
+Make a guess: 
+50
+Too Low
+Make a guess: 
+75
+Too Low
+Make a guess: 
+90
+Too High
+Make a guess: 
+80
+Too Low
+Sorry, too many guesses.  No money
+******************************************
+Welcome to the 1323 Menu System
+Please choose an option
+Option
+1) Calculator Module
+2) Find the Square Root of a number
+3) Convert dollar cent amount to minimal coin amount
+4) Sentence Analysis
+5) Date and Time
+6) Big Money
+
+9) Exit
+
+Choice:
+9
+Thanks for using the 1323 Menu Program mhawley
+mhawley@s26049:~/cosc1123$ exit
+exit
+
+Script done on Thu 25 Feb 2010 04:25:04 PM CST
